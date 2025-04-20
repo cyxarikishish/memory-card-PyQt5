@@ -123,7 +123,7 @@ window = QWidget()
 window.setLayout(layout_card)
 window.setWindowTitle('Memo Card')
 ask('Государственный язык Бразилии', 'Португальский', 'Бразильский', 'Испанский', 'Итальянский')
-btn_OK.clicked.connect(check_answer)
+btn_OK.clicked.connect(check_answer) 
 
 
 window.resize(400, 300)
